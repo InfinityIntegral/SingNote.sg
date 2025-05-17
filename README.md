@@ -10,10 +10,10 @@ SingNote is a note taking application developed for students to take notes digit
 ## Getting started...
 Currently the application is still in development. If you really want to test it, you can build it from the source code here, but I will not provide support to make installing it easier until the app is released.
 
-### Prerequisites
+### Check for these...
 You should be on a supported platform with appropriate permissions. Or you can build it yourself.
 
-### Installation
+### Installing the software...
 The application will be found on App Store, Google Play, etc once released. Otherwise, you can build it yourself.
 
 To build it, download the latest version of Qt and press the "run" button (triangle shaped button at bottom left of the screen). Remember that you are not supposed to be using the app and the stability of the app is not guaranteed because it is not released.
@@ -29,16 +29,16 @@ These are the basic features, the application will not be released until most of
 - [x] creating new notes
 - [ ] file organisation
 - [ ] import and export notes
-	- [ ] undo and redo within file system
+- [ ] undo and redo within file system
 - [ ] note management
 - [x] favourite tools
 - [x] quick move controls
 - [x] writing with pen
 - [x] writing with highlighter
 - [ ] eraser
-	- [ ] editing handwriting using selector
-	- [ ] textboxes
-	- [ ] LaTeX rendering
+- [ ] editing handwriting using selector
+- [ ] textboxes
+- [ ] LaTeX rendering
 	- [ ] image insertion
 	- [ ] image editing
 	- [ ] internal links (bookmarks)
@@ -76,7 +76,7 @@ Choose one of the following
 - email to infinityintegral333@gmail.com
 - message @05524F.sg on Instagram
 
-## Acknowledgements
+## Made possible by...
 - the README format is inspired by Best-README-Template, which can be found at https://github.com/othneildrew/Best-README-Template
 - the application is built using Qt, their official website is https://qt.io
 - OpenGL is used for rendering, their official website is https://opengl.org
