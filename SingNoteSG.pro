@@ -1,0 +1,192 @@
+TEMPLATE = app
+TARGET = SingNote.sg
+
+QT = core gui widgets opengl openglwidgets
+
+SOURCES += \
+main.cpp \
+sgcentralmanagement.cpp \
+sgcollider.cpp \
+sgcollidermanagement.cpp \
+sgcolliderrange.cpp \
+sgdirectoryviewmanagement.cpp \
+sgerasermanagement.cpp \
+    sgfavouritetoolbutton.cpp \
+    sgfavouritetoolsmanagement.cpp \
+sgfilereaderplugin.cpp \
+sgfilesystemmanagementplugin.cpp \
+sgfiletypeenum.cpp \
+sgfilewriterplugin.cpp \
+sggenerallibrary.cpp \
+    sghighlightermanagement.cpp \
+    sghighlighterstrokeobject.cpp \
+sgicon022111132.cpp \
+sgiconbutton022110032.cpp \
+sgiconbutton022111121.cpp \
+    sgiconbutton022111132.cpp \
+sginputfield1.cpp \
+sginputfield122110032.cpp \
+sginputfield2.cpp \
+sginputfield222110032.cpp \
+sginputfield3.cpp \
+sginputfield312211232.cpp \
+sglayoutchangeeraser.cpp \
+	sglayoutchangehighlighter.cpp \
+sglayoutchangepen.cpp \
+    sglayoutchangeselector.cpp \
+sglayoutdirectorytoolbar.cpp \
+    sglayoutfavouritetools.cpp \
+sglayoutnoteslist.cpp \
+sglayoutnotetoolbar.cpp \
+sgnewfilesmanagement.cpp \
+sgnotebackgroundrenderer.cpp \
+    sgnotehighlighterstrokerenderer.cpp \
+	sgnoteinteractionmodeenum.cpp \
+	sgnotemanagement.cpp \
+	sgnoteobject.cpp \
+	sgnoteobjecttypeenum.cpp \
+	sgnotepenstrokerenderer.cpp \
+	sgnotequickmovemanagement.cpp \
+	sgnotequickmoverenderer.cpp \
+	sgnotesavingmanagement.cpp \
+	sgnoteslisticon.cpp \
+	sgnoteslistmanagement.cpp \
+	sgnoteuirenderer.cpp \
+	sgnoteviewmanagement.cpp \
+	sgnoteviewtouchprocessor.cpp \
+	sgpagebackgroundobject.cpp \
+	sgpenmanagement.cpp \
+	sgpenstrokeobject.cpp \
+    sgpenstrokeselectormanagement.cpp \
+	sgpermanentobject.cpp \
+	sgpolylinecollider.cpp \
+    sgpolylineobject.cpp \
+	sgrenderingrange.cpp \
+	sgrootwindow.cpp \
+	sgscrollview000231100.cpp \
+	sgsignalsemitter.cpp \
+	sgstatusbarmanagement.cpp \
+	sgtext012110021.cpp \
+	sgtext012211121.cpp \
+	sgtext012211223.cpp \
+	sgtext022111121.cpp \
+	sgtextbutton022110032.cpp \
+	sgtextbutton022111121.cpp \
+	sgtext022221131.cpp \
+	sgtextbutton022211232.cpp \
+	sgtextbutton022211332.cpp \
+	sgtextbutton022314332.cpp \
+	sgtooloptionsmanagement.cpp \
+	sgtooltypeenum.cpp \
+	sgtouchevent.cpp \
+	sgtouchinputmanagement.cpp \
+	sgundoredotypeenum.cpp \
+	sgviewportmanagement.cpp \
+    sgwidget000110001.cpp \
+    sgwidget000111102.cpp \
+    sgwidget000133103.cpp \
+	sgwidget000211103.cpp \
+	sgwidget000221103.cpp \
+	sgwidget000221104.cpp \
+	sgwidget000331104.cpp \
+	sgwidget000411102.cpp \
+	sgwidget000451103.cpp \
+	sgwidgetbutton000110001.cpp
+
+HEADERS += \
+openglincludes.h \
+sgcentralmanagement.h \
+sgcollider.h \
+sgcollidermanagement.h \
+sgcolliderrange.h \
+sgdirectoryviewmanagement.h \
+sgerasermanagement.h \
+    sgfavouritetoolbutton.h \
+    sgfavouritetoolsmanagement.h \
+sgfilereaderplugin.h \
+sgfilesystemmanagementplugin.h \
+sgfiletypeenum.h \
+sgfilewriterplugin.h \
+sggenerallibrary.h \
+    sghighlightermanagement.h \
+    sghighlighterstrokeobject.h \
+sgicon022111132.h \
+sgiconbutton022110032.h \
+sgiconbutton022111121.h \
+    sgiconbutton022111132.h \
+sginputfield1.h \
+sginputfield122110032.h \
+sginputfield2.h \
+sginputfield222110032.h \
+sginputfield3.h \
+sginputfield312211232.h \
+sglayoutchangeeraser.h \
+	sglayoutchangehighlighter.h \
+sglayoutchangepen.h \
+    sglayoutchangeselector.h \
+sglayoutdirectorytoolbar.h \
+    sglayoutfavouritetools.h \
+sglayoutnoteslist.h \
+sglayoutnotetoolbar.h \
+sgnewfilesmanagement.h \
+sgnotebackgroundrenderer.h \
+    sgnotehighlighterstrokerenderer.h \
+sgnoteinteractionmodeenum.h \
+	sgnotemanagement.h \
+	sgnoteobject.h \
+	sgnoteobjecttypeenum.h \
+	sgnotepenstrokerenderer.h \
+	sgnotequickmovemanagement.h \
+	sgnotequickmoverenderer.h \
+	sgnotesavingmanagement.h \
+	sgnoteslisticon.h \
+	sgnoteslistmanagement.h \
+	sgnoteuirenderer.h \
+	sgnoteviewmanagement.h \
+	sgnoteviewtouchprocessor.h \
+	sgpagebackgroundobject.h \
+	sgpenmanagement.h \
+	sgpenstrokeobject.h \
+    sgpenstrokeselectormanagement.h \
+	sgpermanentobject.h \
+	sgpolylinecollider.h \
+    sgpolylineobject.h \
+	sgrenderingrange.h \
+	sgrootwindow.h \
+	sgscrollview000231100.h \
+	sgsignalsemitter.h \
+	sgstatusbarmanagement.h \
+	sgtext012110021.h \
+	sgtext012211121.h \
+	sgtext012211223.h \
+	sgtext022111121.h \
+	sgtextbutton022110032.h \
+	sgtextbutton022111121.h \
+	sgtext022221131.h \
+	sgtextbutton022211232.h \
+	sgtextbutton022211332.h \
+	sgtextbutton022314332.h \
+	sgtooloptionsmanagement.h \
+	sgtooltypeenum.h \
+	sgtouchevent.h \
+	sgtouchinputmanagement.h \
+	sgundoredotypeenum.h \
+	sgviewportmanagement.h \
+    sgwidget000110001.h \
+    sgwidget000111102.h \
+    sgwidget000133103.h \
+	sgwidget000211103.h \
+	sgwidget000221103.h \
+	sgwidget000221104.h \
+	sgwidget000331104.h \
+	sgwidget000411102.h \
+	sgwidget000451103.h \
+	sgwidgetbutton000110001.h
+
+RESOURCES += \
+assets.qrc
+
+DISTFILES += \
+    .gitignore \
+    LICENSE.txt \
+    README.md

@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/SingScript.sg.otf</file>
+        <file>assets/SingNote.sg-icons.otf</file>
+        <file>assets/notebackground.vert</file>
+        <file>assets/notebackground.frag</file>
+        <file>assets/notequickmove.vert</file>
+        <file>assets/notequickmove.frag</file>
+        <file>assets/notepenstroke.vert</file>
+        <file>assets/notepenstroke.frag</file>
+        <file>assets/notepenstrokeoffset.vert</file>
+        <file>assets/noteui.vert</file>
+        <file>assets/noteui.frag</file>
+        <file>assets/notehighlighterstroke.vert</file>
+        <file>assets/notehighlighterstroke.frag</file>
+        <file>assets/notehighlighterstrokeoffset.vert</file>
+    </qresource>
+</RCC>
