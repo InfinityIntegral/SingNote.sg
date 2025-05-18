@@ -24,37 +24,37 @@ You download the app and use it to take notes. The UI should be intuitive enough
 ## What to expect...
 These are the basic features, the application will not be released until most of these features are completed.
 - [ ] file system management
-- [x] displaying existing notes
-- [x] saving note contents
-- [x] creating new notes
-- [ ] file organisation
-- [ ] import and export notes
-- [ ] undo and redo within file system
+     - [x] displaying existing notes
+	- [x] saving note contents
+	- [x] creating new notes
+	- [ ] file organisation
+	- [ ] import and export notes
+	- [ ] undo and redo within file system
 - [ ] note management
-- [x] favourite tools
-- [x] quick move controls
-- [x] writing with pen
-- [x] writing with highlighter
-- [ ] eraser
-- [ ] editing handwriting using selector
-- [ ] textboxes
-- [ ] LaTeX rendering
-	- [ ] image insertion
-	- [ ] image editing
-	- [ ] internal links (bookmarks)
-	- [ ] external links (actual links)
+     - [x] favourite tools
+	- [x] quick move controls
+	- [x] writing with pen
+	- [x] writing with highlighter
+	- [ ] eraser
+	- [ ] editing handwriting using selector
+	- [ ] box elements
+	     - [ ] textboxes
+		- [ ] LaTeX rendering
+		- [ ] image insertion
+		- [ ] image editing
+		- [ ] internal links (bookmarks)
+		- [ ] external links (actual links)
+	- [ ] geometric shapes
+	- [ ] editing geometric shapes
 	- [ ] page-based editing
 	- [ ] editing background
 	- [ ] undo and redo within note
-	- [ ] editing media
-	- [ ] geometric shapes
-	- [ ] editing geometric shapes
 	- [ ] copy paste and stickers
-	- [ ] sticker packs
+	     - [ ] sticker packs
 	- [ ] laser pen and laser pointer
 - [ ] user settings
-- [ ] changes to app behaviours
-- [ ] theme colours
+     - [ ] changes to app behaviours
+	- [ ] theme colours
 
 ## Contributing...
 The best way to contribute is to complain. To complain refers to informing me of a bug or suggesting a new feature to be included to the app. You can complain by sending an email to infinityintegral333@gmail.com or by sending a message to @05524F.sg on Instagram.
