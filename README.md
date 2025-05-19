@@ -7,16 +7,11 @@ SingNote is a note taking application developed for students to take notes digit
 - Qt (C++ GUI framework)
 - OpenGL (through Qt, for rendering)
 
-## Getting started...
-Currently the application is still in development. If you really want to test it, you can build it from the source code here, but I will not provide support to make installing it easier until the app is released.
-
-### Check for these...
+## Prerequisites
 You should be on a supported platform with appropriate permissions. Or you can build it yourself.
 
-### Installing the software...
-The application will be found on App Store, Google Play, etc once released. Otherwise, you can build it yourself.
-
-To build it, download the latest version of Qt and press the "run" button (triangle shaped button at bottom left of the screen). Remember that you are not supposed to be using the app and the stability of the app is not guaranteed because it is not released.
+## Installation
+The application will be found on App Store, Google Play, etc once released. Otherwise, you can build it yourself using the latest version of Qt.
 
 ## Using the app...
 You download the app and use it to take notes. The UI should be intuitive enough, otherwise pls complain to me.
@@ -57,11 +52,11 @@ These are the basic features, the application will not be released until most of
 	- [ ] theme colours
 
 ## Contributing...
-The best way to contribute is to complain. To complain refers to informing me of a bug or suggesting a new feature to be included to the app. You can complain by sending an email to infinityintegral333@gmail.com or by sending a message to @05524F.sg on Instagram.
+The best way to contribute is to complain. To complain refers to informing me of a bug or suggesting a new feature to be included to the software. Pls refer to the "Contact me" section below.
 
-If I perceive your suggested feature to be beyond the scope of SingNote (for example if you want professional art tools or an extension to play music), I will not approve it. However, you can still download the code and build your own feature. As long as you keep the .sg in your project name, I am ok with it.
+If I perceive your suggested feature to be beyond the scope of the software, I will not approve it. However, you can still download the code and build your own feature. As long as you keep the .sg in your project name, I am ok with it.
 
-### Who contributed the most...
+## Who contributed the most...
 student 05524F (InfinityIntegral)
 
 (that is me)

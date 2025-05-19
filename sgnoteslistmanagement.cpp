@@ -22,6 +22,7 @@ void SGNotesListManagement::noteslistinitialise(){
     SGNotesListManagement::noteslistslayout = new SGLayoutNotesList(SGNotesListManagement::noteslistscrollview);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteslist, SGNotesListManagement::noteslistslayout, &SGLayoutNotesList::ReceiveUpdateCall);
     (*SGNotesListManagement::noteslistscrollview).setWidget(SGNotesListManagement::noteslistslayout);
+    (*SGNotesListManagement::noteslistslayout).ReceiveUpdateCall();
     SGNotesListManagement::refreshnoteslist();
 }
 

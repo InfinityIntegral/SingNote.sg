@@ -81,6 +81,7 @@ void SGNoteViewManagement::initialisenoteview(){
         SGNoteViewManagement::favouritetoolslayout = new SGLayoutFavouriteTools(SGNoteViewManagement::favouritetoolsscrollview);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::favouritetoolslayout, &SGLayoutFavouriteTools::ReceiveUpdateCall);
         (*SGNoteViewManagement::favouritetoolsscrollview).setWidget(SGNoteViewManagement::favouritetoolslayout);
+        (*SGNoteViewManagement::favouritetoolslayout).ReceiveUpdateCall();
         SGNoteViewManagement::favouritetoolsaddbutton = new SGIconButton022111132(SGNoteViewManagement::favouritetoolsbackground, "\uE022", 0.0f, 0.0f, 1.5f, 1.5f);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::favouritetoolsaddbutton, &SGIconButton022111132::ResizeObj);
         connect(SGNoteViewManagement::favouritetoolsaddbutton, &SGIconButton022111132::clicked, &SGFavouriteToolsManagement::addfavouritetool);

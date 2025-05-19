@@ -143,6 +143,7 @@ void SGToolOptionsManagement::showchangepen(){
     SGToolOptionsManagement::changepenlayout = new SGLayoutChangePen(SGToolOptionsManagement::changepenscrollview);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangepenmenu, SGToolOptionsManagement::changepenlayout, &SGLayoutChangePen::ReceiveUpdateCall);
     (*SGToolOptionsManagement::changepenscrollview).setWidget(SGToolOptionsManagement::changepenlayout);
+    (*SGToolOptionsManagement::changepenlayout).ReceiveUpdateCall();
 
     SGToolOptionsManagement::changepentitletext = new SGText012110021(SGToolOptionsManagement::changepenlayout, "customise pen...", 5.0f, 1.0f);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangepenmenu, SGToolOptionsManagement::changepentitletext, &SGText012110021::ResizeObj);
@@ -232,6 +233,7 @@ void SGToolOptionsManagement::showchangeeraser(){
     SGToolOptionsManagement::changeeraserlayout = new SGLayoutChangeEraser(SGToolOptionsManagement::changeeraserscrollview);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangeerasermenu, SGToolOptionsManagement::changeeraserlayout, &SGLayoutChangeEraser::ReceiveUpdateCall);
     (*SGToolOptionsManagement::changeeraserscrollview).setWidget(SGToolOptionsManagement::changeeraserlayout);
+    (*SGToolOptionsManagement::changeeraserlayout).ReceiveUpdateCall();
 
     SGToolOptionsManagement::changeerasertitletext = new SGText012110021(SGToolOptionsManagement::changeeraserlayout, "customise eraser...", 5.5f, 1.0f);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangeerasermenu, SGToolOptionsManagement::changeerasertitletext, &SGText012110021::ResizeObj);
@@ -335,6 +337,8 @@ void SGToolOptionsManagement::showchangehighlighter(){
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangehighlightermenu, SGToolOptionsManagement::changehighlighterscrollview, &SGScrollView000231100::ResizeObj);
     SGToolOptionsManagement::changehighlighterlayout = new SGLayoutChangeHighlighter(SGToolOptionsManagement::changehighlighterbackground);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangehighlightermenu, SGToolOptionsManagement::changehighlighterlayout, &SGLayoutChangeHighlighter::ReceiveUpdateCall);
+    (*SGToolOptionsManagement::changehighlighterscrollview).setWidget(SGToolOptionsManagement::changehighlighterlayout);
+    (*SGToolOptionsManagement::changehighlighterlayout).ReceiveUpdateCall();
 
     SGToolOptionsManagement::changehighlightertitletext = new SGText012110021(SGToolOptionsManagement::changehighlighterlayout, "customise highlighter...", 7.0f, 1.0f);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangehighlightermenu, SGToolOptionsManagement::changehighlightertitletext, &SGText012110021::ResizeObj);
@@ -432,6 +436,7 @@ void SGToolOptionsManagement::showchangeselector(){
     SGToolOptionsManagement::changeselectorlayout = new SGLayoutChangeSelector(SGToolOptionsManagement::changeselectorscrollview);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangeselectormenu, SGToolOptionsManagement::changeselectorlayout, &SGLayoutChangeSelector::ReceiveUpdateCall);
     (*SGToolOptionsManagement::changeselectorscrollview).setWidget(SGToolOptionsManagement::changeselectorlayout);
+    (*SGToolOptionsManagement::changeselectorlayout).ReceiveUpdateCall();
 
     SGToolOptionsManagement::changeselectortitletext = new SGText012110021(SGToolOptionsManagement::changeselectorlayout, "customise selector...", 6.0f, 1.0f);
     connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatechangeselectormenu, SGToolOptionsManagement::changeselectortitletext, &SGText012110021::ResizeObj);
