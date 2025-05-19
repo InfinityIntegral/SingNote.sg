@@ -44,7 +44,7 @@ void SGNoteViewManagement::initialisenoteview(){
     else{
         SGNoteViewManagement::noteviewbackground = new SGWidget000221103(SGCentralManagement::mainbackground, 0.0f, 0.0f);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::noteviewbackground, &SGWidget000221103::ResizeObj);
-        SGNoteViewManagement::renderarea = new SGWidget000331104(SGNoteViewManagement::noteviewbackground, 0.0f, 1.5f, 1.0f, -3.0f, 1.0f, -1.5f);
+        SGNoteViewManagement::renderarea = new SGWidget000331104(SGNoteViewManagement::noteviewbackground, 0.0f, 1.5f, 1.0f, -3.5f, 1.0f, -1.5f);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::renderarea, &SGWidget000331104::ResizeObj);
 
         SGNoteViewManagement::backgroundrenderer = new SGNoteBackgroundRenderer(SGNoteViewManagement::renderarea);
@@ -74,7 +74,7 @@ void SGNoteViewManagement::initialisenoteview(){
         connect((*SGNoteViewManagement::changetoolbutton).buttonicon, &SGIconButton022111132::clicked, &SGToolOptionsManagement::showtooloptions);
         (*SGNoteViewManagement::toolbarlayout).objlist[1] = SGNoteViewManagement::changetoolbutton;
 
-        SGNoteViewManagement::favouritetoolsbackground = new SGWidget000133103(SGNoteViewManagement::noteviewbackground, 3.0f, 1.5f, 3.0f, 1.0f, -1.5f);
+        SGNoteViewManagement::favouritetoolsbackground = new SGWidget000133103(SGNoteViewManagement::noteviewbackground, 3.5f, 1.5f, 3.5f, 1.0f, -1.5f);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::favouritetoolsbackground, &SGWidget000133103::ResizeObj);
         SGNoteViewManagement::favouritetoolsscrollview = new SGScrollView000231100(SGNoteViewManagement::favouritetoolsbackground, 0.0f, 1.5f, 1.0f, -1.5f);
         connect(SGCentralManagement::signalsemitter, &SGSignalsEmitter::updatenoteview, SGNoteViewManagement::favouritetoolsscrollview, &SGScrollView000231100::ResizeObj);

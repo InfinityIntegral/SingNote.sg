@@ -11,6 +11,7 @@ SGScrollView000231100::SGScrollView000231100(QWidget *parent, float x, float y, 
     (*this).show();
     SGGeneralLibrary::setscrollviewstylesheet(this);
     (*this).setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    (*this).setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     (*this).setFrameStyle(QFrame::NoFrame);
     (*this).ResizeObj();
 }
