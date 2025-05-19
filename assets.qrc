@@ -14,5 +14,6 @@
         <file>assets/notehighlighterstroke.vert</file>
         <file>assets/notehighlighterstroke.frag</file>
         <file>assets/notehighlighterstrokeoffset.vert</file>
+        <file>assets/05524Flogo.png</file>
     </qresource>
 </RCC>
