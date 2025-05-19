@@ -22,7 +22,9 @@ void SGGeneralLibrary::SetUIStyle(QWidget* obj, QString& k, QString& v){
     QRegularExpression r(k + ":[^;]+;");
     if(s.contains(r)){s.replace(r, k + ": " + v + "; ");}
     else{s += (k + ": " + v + "; ");}
+    bool x = (*obj).autoFillBackground();
     (*obj).setStyleSheet(s);
+    (*obj).setAutoFillBackground(x);
 }
 
 void SGGeneralLibrary::updatefontsize(QWidget *obj){
